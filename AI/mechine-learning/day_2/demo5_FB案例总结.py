@@ -8,15 +8,16 @@ import pandas as pd
 def knncls():
     """K-近邻算法预测用户查询业务"""
     data = pd.read_csv('/home/jhonchen/scikit_learn_data/FBlocation/train_0.csv')
-    # print(data)
     # 1.缩小数据范围
+    # 2.数据逻辑筛选操作
     # data = data.query("x >1.0 & x < 1.25 & y > 2.5 & y< 2.75")
-    # 取出特征值和目标值
-    y = data[['place_id']]
 
+    # 3.取出特征值和目标值
+    y = data[['place_id']]
     x = data[['x', 'y', 'accuracy', 'time']]
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
-    # 进行数据的标准化处理
+
+    # 4.进行数据的标准化处理
     # 实例化
     std = StandardScaler()
     # 对训练集的特征值做标准化处理
@@ -24,10 +25,15 @@ def knncls():
     # 对测试集的特征值做标准化处理
     x_test = std.fit_transform(x_test)
     
+    # 5.删除入住次数少于5次的位置
+    # 需要补习pandas函数的语法等
+    place_count = data.groupby('place_id').count()
+    tf = place_count[place_count.row_id > 5].reset_index()
+    data = data[data['place_id'].isin(tf.place_id)]
 
 
-    # 5.利用k-近邻算法去进行训练预测
-    knn = KNeighborsClassifier(n_neighbors=5)
+    # 6.利用k-近邻算法去进行训练预测
+    knn = KNeighborsClassifier(n_neighbors=2)
     # 调用fit和predict或者score
     knn.fit(x_train, y_train)
     # 预测测试集的目标值（签到位置）

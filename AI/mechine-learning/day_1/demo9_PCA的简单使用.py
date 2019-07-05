@@ -79,7 +79,7 @@ def pearson():
 
 def pc_a():
     """主成分分析进行降维"""
-    data = pd.read_csv('./stock_day.csv')
+    data = pd.read_csv('~/scikit_learn_data/instacart/products.csv')
     pca = PCA(n_components=0.95)
     data = pca.fit_transform(data[['high', 'open']])
     print(data)
