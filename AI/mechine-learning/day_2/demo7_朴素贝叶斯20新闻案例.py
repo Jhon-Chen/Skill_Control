@@ -1,12 +1,9 @@
 #!/usr/bin/env python
 # coding=utf-8
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.feature_extraction import DictVectorizer
-from sklearn.preprocessing import StandardScaler
 from sklearn.datasets import fetch_20newsgroups
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.model_selection import train_test_split, GridSearchCV
-import pandas as pd 
 
 
 def nbcls():
@@ -36,9 +33,7 @@ def nbcls():
     # 得出准确率
     print("文档分类的准确率为:", mlb.score(x_test, y_test))
 
-
     return None 
-
 
 
 if __name__ == '__main__':
