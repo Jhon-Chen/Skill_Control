@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
+<<<<<<< HEAD
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.7 (AI)" jdkType="Python SDK" />
+=======
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.7 (ai)" jdkType="Python SDK" />
+>>>>>>> 2d2e6c27e83efad97a0fc8b9626631c17c3415f8
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
