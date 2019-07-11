@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad75f07c-9e60-4eb5-9108-a3cd31e9f557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2_癌症预测案例.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/day_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/day_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3_模板保存与加载.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +28,7 @@
       <list>
         <option value="$PROJECT_DIR$/demo1_波士顿房价.py" />
         <option value="$PROJECT_DIR$/demo2_癌症预测案例.py" />
+        <option value="$PROJECT_DIR$/demo3_模板保存与加载.py" />
       </list>
     </option>
   </component>
@@ -85,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo2_癌症预测案例">
+  <component name="RunManager" selected="Python.demo3_模板保存与加载">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="day_3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,8 +149,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo3_模板保存与加载" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo3_模板保存与加载.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo3_模板保存与加载" />
         <item itemvalue="Python.demo2_癌症预测案例" />
         <item itemvalue="Python.demo1_波士顿房价" />
       </list>
@@ -171,17 +188,17 @@
       <updated>1562748214823</updated>
       <workItem from="1562748222129" duration="2258000" />
       <workItem from="1562756265197" duration="3306000" />
-      <workItem from="1562807384106" duration="6150000" />
+      <workItem from="1562807384106" duration="8181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11714000" />
+    <option name="totallyTimeSpent" value="13745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="896" height="979" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24763033" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24763033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -233,6 +250,16 @@
           <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3_模板保存与加载.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
