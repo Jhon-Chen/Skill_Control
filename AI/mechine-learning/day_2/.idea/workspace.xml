@@ -1,4 +1,6 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
@@ -7,6 +9,9 @@
       <change beforePath="$PROJECT_DIR$/../../../人工智能/人工智能の机器学习day_2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../人工智能/人工智能の机器学习day_2.md" afterDir="false" />
 =======
     <list default="true" id="c35a4ef0-278e-48c8-bbd9-af52d42fe500" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/demo6_FB模型调优.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo6_FB模型调优.py" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/.idea/day_2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jhonchen.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -18,6 +23,7 @@
       <change afterPath="$PROJECT_DIR$/test.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo7_朴素贝叶斯20新闻案例.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo7_朴素贝叶斯20新闻案例.py" afterDir="false" />
 >>>>>>> 2d2e6c27e83efad97a0fc8b9626631c17c3415f8
+>>>>>>> 2123cb6a69f829fcb93a5191c9284328a8133c6b
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +32,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
 <<<<<<< HEAD
@@ -49,6 +58,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> 2123cb6a69f829fcb93a5191c9284328a8133c6b
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -77,6 +87,7 @@
         <option value="$PROJECT_DIR$/demo7_朴素贝叶斯20新闻案例.py" />
         <option value="$PROJECT_DIR$/demo8_泰坦尼克案例.py" />
         <option value="$PROJECT_DIR$/demo9_泰坦随机森林.py" />
+        <option value="$PROJECT_DIR$/demo6_FB模型调优.py" />
       </list>
     </option>
   </component>
@@ -254,12 +265,27 @@
       <workItem from="1562567264717" duration="754000" />
       <workItem from="1562568070007" duration="2658000" />
       <workItem from="1562574199190" duration="472000" />
+<<<<<<< HEAD
+      <workItem from="1562574785426" duration="2694000" />
+=======
       <workItem from="1562574785426" duration="1168000" />
 >>>>>>> 2d2e6c27e83efad97a0fc8b9626631c17c3415f8
+>>>>>>> 2123cb6a69f829fcb93a5191c9284328a8133c6b
     </task>
+    <task id="LOCAL-00001" summary="随机森林">
+      <created>1562576102467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562576102467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="6578000" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="467000" />
   </component>
@@ -269,6 +295,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3244717" />
 =======
     <option name="totallyTimeSpent" value="5052000" />
+>>>>>>> 2123cb6a69f829fcb93a5191c9284328a8133c6b
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -281,10 +308,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="995" extended-state="6" />
-    <editor active="true" />
     <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1611349" />
+=======
       <window_info content_ui="combo" id="Project" order="0" weight="0.2606635" />
 >>>>>>> 2d2e6c27e83efad97a0fc8b9626631c17c3415f8
+>>>>>>> 2123cb6a69f829fcb93a5191c9284328a8133c6b
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -308,7 +338,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971016" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32938388" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32971016" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.5201422" />
@@ -325,6 +355,12 @@
     <option name="version" value="1" />
   </component>
 <<<<<<< HEAD
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="随机森林" />
+    <option name="LAST_COMMIT_MESSAGE" value="随机森林" />
+  </component>
+=======
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo6_FB模型调优.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -333,22 +369,13 @@
           <folding>
             <element signature="e#37#87#0" expanded="true" />
 =======
+>>>>>>> 2123cb6a69f829fcb93a5191c9284328a8133c6b
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/day_2$demo9_.coverage" NAME="demo9_泰坦随机森林 Coverage Results" MODIFIED="1562575306790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day_2$demo8_.coverage" NAME="demo8_泰坦尼克案例 Coverage Results" MODIFIED="1562569369577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Startify" />
-    <entry file="file://$PROJECT_DIR$/demo7_朴素贝叶斯20新闻案例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="e#37#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -368,3 +395,36 @@
           <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
           <folding>
             <element signature="e#37#90#0" expanded="true" />
+<<<<<<< HEAD
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1_数据集介绍.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7_朴素贝叶斯20新闻案例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="94" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="94" />
+          <folding>
+            <element signature="e#37#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo6_FB模型调优.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+=======
+>>>>>>> 2123cb6a69f829fcb93a5191c9284328a8133c6b

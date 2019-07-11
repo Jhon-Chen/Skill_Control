@@ -32,7 +32,6 @@ def knncls():
     tf = place_count[place_count.row_id > 5].reset_index()
     data = data[data['place_id'].isin(tf.place_id)]
 
-
     # 6.利用k-近邻算法去进行训练预测
     # knn = KNeighborsClassifier(n_neighbors=2)
     # 调用fit和predict或者score
