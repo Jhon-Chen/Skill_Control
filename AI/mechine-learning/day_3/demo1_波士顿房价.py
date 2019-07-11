@@ -1,4 +1,4 @@
-from sklearn.linear_model import LinearRegression, SGDRegressor
+from sklearn.linear_model import LinearRegression, SGDRegressor, Ridge
 from sklearn.datasets import load_boston
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -44,6 +44,16 @@ def my_linear():
     y_predict_sgd = sgd.predict(x_test)
     err_sgd = mean_squared_error(y_test, y_predict_sgd)
     print("梯度下降法的预测误差的平方：", err_sgd)
+
+    # 使用带有L2正则化的线性回归去预测
+    rd = Ridge(alpha=1.0)
+    rd.fit(x_train, y_train)
+    print("岭回归计算出的权重：", rd.coef_)
+    print("岭回归计算出的偏置：", rd.intercept_)
+
+    y_predict_rd = rd.predict(x_test)
+    err_rd = mean_squared_error(y_test, y_predict_rd)
+    print("梯度下降法的预测误差的平方：", err_rd)
 
     return None
 
