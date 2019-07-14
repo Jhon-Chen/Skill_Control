@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="569b085b-28fa-4638-8ea0-921b0d68d960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="be2417bb-06c9-41ee-a3be-f3cf24356353" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../mechine-learning/day_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mechine-learning/day_3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,25 +10,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/day_1/demo3_柱状图绘制.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="70" />
@@ -37,9 +19,7 @@
     <option name="width" value="888" />
     <option name="height" value="803" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -50,13 +30,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="datamining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datamining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datamining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datamining" type="462c0819:PsiDirectoryNode" />
-              <item name="day_1" type="462c0819:PsiDirectoryNode" />
+              <item name="mathematic-foundation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathematic-foundation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -65,17 +40,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../datamining" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/day_1" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -94,23 +65,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="569b085b-28fa-4638-8ea0-921b0d68d960" name="Default Changelist" comment="" />
-      <created>1563104585596</created>
+      <changelist id="be2417bb-06c9-41ee-a3be-f3cf24356353" name="Default Changelist" comment="" />
+      <created>1563075060087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563104585596</updated>
-      <workItem from="1563104590132" duration="931000" />
+      <updated>1563075060087</updated>
+      <workItem from="1563075061738" duration="1218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="931000" />
+    <option name="totallyTimeSpent" value="1218000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="795" height="979" extended-state="6" />
+    <frame x="0" y="27" width="721" height="979" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33647376" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -134,13 +105,5 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day_1/test2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day_1/demo3_柱状图绘制.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
   </component>
 </project>

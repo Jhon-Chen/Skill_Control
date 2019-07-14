@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad75f07c-9e60-4eb5-9108-a3cd31e9f557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo3_模板保存与加载.py" afterDir="false" />
-    </list>
+    <list default="true" id="ad75f07c-9e60-4eb5-9108-a3cd31e9f557" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +23,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,6 +75,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mathematic-foundation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -167,6 +166,9 @@
       <module name="day_3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -203,16 +205,17 @@
       <workItem from="1562748222129" duration="2258000" />
       <workItem from="1562756265197" duration="3306000" />
       <workItem from="1562807384106" duration="8499000" />
+      <workItem from="1563075024579" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14063000" />
+    <option name="totallyTimeSpent" value="14097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="995" extended-state="6" />
+    <frame x="0" y="27" width="884" height="979" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24732333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25480768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -228,12 +231,12 @@
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32850242" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" x="0" y="0" width="187" height="779" id="Documentation" side_tool="true" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.14882226" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49879226" weight="0.14783654" />
       <window_info anchor="right" id="Database" order="4" weight="0.32938388" />
+      <window_info anchor="right" x="0" y="0" width="187" height="779" id="Documentation" order="5" sideWeight="0.5012077" side_tool="true" weight="0.14783654" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
