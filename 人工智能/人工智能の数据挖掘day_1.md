@@ -245,6 +245,176 @@ plt.savefig(path)
 * plt.yticks(y, **kwargs)
   y：要显示的刻度值
 
-  
+增加以下两行代码构造中文列表的字符串
 
-  
+```python
+  x_ch = ["11点{}分".format(i) for i in x]
+  y_ticks = range(40)
+```
+
+
+
+修改x,y坐标的刻度:
+
+```python
+  plt.xticks(x[::5], x_ch[::5])
+  plt.yticks(y_ticks[::5])
+```
+
+#### 增加坐标轴信息
+
+```python
+plt.xlabel("时间")
+plt.ylabel("温度")
+plt.title("中午11点0分到12点之间的温度变化图示")
+```
+
+![image21551.png](https://miao.su/images/2019/07/12/image21551.png)
+
+#### 再添加一个城市的温度变化
+
+收集到北京当天温度变化情况，温度在1度到3度。怎么去添加另一个在同一坐标系当中的不同图形，*其实很简单只需要再次plot即可*，但是需要区分线条，如下显示
+
+![image8bfad.png](https://miao.su/images/2019/07/12/image8bfad.png)
+
+```python
+ 再添加一个城市
+# 生成北京的温度
+y_beijing = [random.uniform(1, 3) for i in x]
+
+# 画折线图
+plt.plot(x, y_shanghai, label="上海")
+# 使用plot可以多次画多个折线
+plt.plot(x, y_beijing, color='r', linestyle='--', label="北京")
+
+# 添加图形注释
+plt.legend(loc="best")
+
+
+# 画折线图
+plt.plot(x, y_shanghai, label='上海')
+plt.show()
+```
+
+#### 自定义图形风格
+
+| 颜色字符 |    风格字符    |
+| :------: | :------------: |
+|  r 红色  |     - 实线     |
+|  g 绿色  |    - - 虚线    |
+|  b 蓝色  |   -. 点划线    |
+|  w 白色  |    : 点虚线    |
+|  c 青色  | ' ' 留空、空格 |
+|  m 洋红  |                |
+|  y 黄色  |                |
+|  k 黑色  |                |
+
+#### 添加图例注释
+
+```visual basic
+plt.legend(loc="best")
+```
+
+![imagee006a.png](https://miao.su/images/2019/07/12/imagee006a.png)
+
+### 多坐标系显示-subplots
+
+如果我们想要将上海和北京的天气图显示在同一个图的不同坐标系当中，效果如下：
+
+可以通过subplots函数实现(旧的版本中有subplot，使用起来不方便)，推荐subplots函数。
+`matplotlib.pyplot.subplots(nrows=1, ncols=1, **fig_kw)` 创建一个带有多个坐标系的图：
+
+```python
+%matplotlib inline
+import random
+import matplotlib.pyplot as plt
+
+from matplotlib.pylab import mpl
+mpl.rcParams['font.sans-serif'] = ['arial unicode ms']   #显示中文
+mpl.rcParams['axes.unicode_minus']=False       #显示负号
+
+
+# 两个城市的温度，在多个坐标系中显示
+fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(20,8))
+"""fig是画布，ax是坐标系，通过ax[0],ax[1]获取"""
+
+# 准备x，y轴数据
+x = range(60)
+y_shanghai = [random.uniform(15, 18) for i in x]
+y_beijing = [random.uniform(8, 10) for i in x]
+
+# 增加下面两行到代码，编辑要显示的中文
+x_ch = ["11点{}分".format(i) for i in x]
+y = range(40)
+
+"""当在多个ax中画图的时候，刻度、标签、必须在相应的坐标系里面制定"""
+# 上海显示
+ax[0].plot(x, y_shanghai, label="上海")
+# 显示上海的温度
+ax[1].plot(x, y_beijing, color='r', linestyle='--', label="北京")
+
+
+# 修改x,y坐标的刻度，指定对应的中文（注意，两者的步长必须一样）
+# plt是对于整体处理，而ax是对于每一个坐标系指定
+# plt.xticks(x[::5], x_ch[::5])
+# plt.yticks(y[::5])
+ax[0].set_xticks(x[::5], x_ch[::5])
+ax[1].set_xticks(x[::5], x_ch[::5])
+ax[0].set_yticks(y[::5])
+ax[1].set_yticks(y[::5])
+
+ax[0].set_xlabel("时间")
+ax[1].set_xlabel("时间")
+ax[0].set_ylabel("温度")
+ax[1].set_ylabel("温度")
+
+ax[0].set_title("中午11点0分到12点之间的温度变化图示")
+ax[1].set_title("中午11点0分到12点之间的温度变化图示")
+
+ax[0].legend(loc="best")
+ax[1].legend(loc="best")
+
+
+# 画折线图
+plt.show()
+plt.savefig('test2.png')
+```
+
+```python
+Parameters:    
+nrows, ncols : int, optional, default: 1, Number of rows/columns of the subplot grid.
+**fig_kw : All additional keyword arguments are passed to the figure() call.
+Returns:    
+fig : 图对象
+ax : 
+    设置标题等方法不同：
+    set_xticks
+    set_yticks
+    set_xlabel
+    set_ylabel
+```
+
+关于axes子坐标系的更多方法：参考https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes
+
+### 折线图应用场景
+
+- 呈现公司产品(不同区域)每天活跃用户数
+- 呈现app每天下载数量
+- 呈现产品新功能上线后,用户点击次数随时间的变化
+
+### 总结
+
+<u>开头的这几个目标应用全都很重要</u>
+
+- 知道如何解决中文显示问题
+- 知道matplotlib的图结构
+- 应用figure实现创建绘图区域大小
+- 应用plot实现折线图的绘制
+- 应用title,xlabel,ylabel实现标题以及x,y轴名设置
+- 应用xticks,yticks实现axes的刻度设置和标注
+- 应用savefig实现图形的本地保存
+- 应用grid实现显示网格应用axis实现图像形状修改
+- 应用legend实现图形标注信息显示
+- 应用plt.subplots实现多坐标系的创建
+- 知道如何设置多个axes的标题、刻度
+
